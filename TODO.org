@@ -1,0 +1,21 @@
+- Model
+  + URDF for arm, gripper, and camera
+- Vitualize in Rviz
+- Simulate in Gazebo
+  + Add gazebo tags
+  + Add gazebo plugins for controllers and sensors
+- Moveit configuration
+  + Moveit assistant
+- Rviz Moveit motion planning
+  + move_group subscribes to joint_states and robot_states
+  + move_group publishes move_group/monitored_planning_scene
+  + set start state and goal state
+  + plan and execute
+- C++ to Moveit
+- Blinded pick and place
+
+- Kinect/Xtion
+- subscribes to /rgbd_camera/depth/*, /rgbd_camera/ir/*, /rgbd_camera/rbg/*
+- Object detection
+- How to pick, where to place the end effector
+- Collision checking
